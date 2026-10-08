@@ -1,0 +1,19 @@
+{
+    "job_name": "analysis-run-05-derived",
+    "jobs_dir": "<workspace>/results/one-cycle-derived-methods-20261008/analyze-run-05",
+    "quiet": true,
+    "agents": [
+        {
+            "name": "terminus-2",
+            "model_name": "deepseek/deepseek-v4-pro",
+            "kwargs": {
+                "api_base": "https://api.deepseek.com/v1"
+            }
+        }
+    ],
+    "tasks": [
+        {
+            "path": "/tmp/harbor-analyze-qe85kqm2/analyze-cyclic-loading-displacement__qUwyJsu"
+        }
+    ]
+}

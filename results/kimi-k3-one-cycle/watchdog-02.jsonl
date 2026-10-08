@@ -1,0 +1,13 @@
+{"time_utc": "2026-10-08T12:41:30.548180+00:00", "run": 2, "event": "watchdog_started", "existing_attempt": 1, "stale_seconds": 300}
+{"time_utc": "2026-10-08T12:41:30.548765+00:00", "run": 2, "event": "stale_terminated", "attempt": 1, "pid": 1597638, "idle_seconds": 749.2}
+{"time_utc": "2026-10-08T12:41:44.594311+00:00", "run": 2, "event": "launched", "attempt": 2, "detail": "run 02: pid 3924301, <workspace>/results/kimi-k3-one-cycle/run-02-retry2"}
+{"time_utc": "2026-10-08T12:48:24.972380+00:00", "run": 2, "event": "stale_terminated", "attempt": 2, "pid": 3924301, "idle_seconds": 305.6}
+{"time_utc": "2026-10-08T12:48:39.018675+00:00", "run": 2, "event": "launched", "attempt": 3, "detail": "run 02: pid 362282, <workspace>/results/kimi-k3-one-cycle/run-02-retry3"}
+{"time_utc": "2026-10-08T12:54:19.309654+00:00", "run": 2, "event": "stale_terminated", "attempt": 3, "pid": 362282, "idle_seconds": 312.9}
+{"time_utc": "2026-10-08T12:54:33.357414+00:00", "run": 2, "event": "launched", "attempt": 4, "detail": "run 02: pid 891955, <workspace>/results/kimi-k3-one-cycle/run-02-retry4"}
+{"time_utc": "2026-10-08T13:00:33.673920+00:00", "run": 2, "event": "stale_terminated", "attempt": 4, "pid": 891955, "idle_seconds": 314.2}
+{"time_utc": "2026-10-08T13:00:47.720799+00:00", "run": 2, "event": "launched", "attempt": 5, "detail": "run 02: pid 1460963, <workspace>/results/kimi-k3-one-cycle/run-02-retry5"}
+{"time_utc": "2026-10-08T13:18:56.937087+00:00", "run": 2, "event": "watchdog_started", "existing_attempt": 5, "stale_seconds": 600}
+{"time_utc": "2026-10-08T13:18:56.937343+00:00", "run": 2, "event": "unscored_exit", "attempt": 5, "pid": 1460963}
+{"time_utc": "2026-10-08T13:18:56.967952+00:00", "run": 2, "event": "launched", "attempt": 6, "detail": "run 02: pid 3091865, <workspace>/results/kimi-k3-one-cycle/run-02-retry6"}
+{"time_utc": "2026-10-08T13:39:03.425861+00:00", "run": 2, "event": "watchdog_started", "existing_attempt": 6, "stale_seconds": 1800}

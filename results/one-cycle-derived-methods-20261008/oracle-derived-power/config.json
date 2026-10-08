@@ -1,0 +1,9 @@
+{
+    "job_name": "oracle-derived-power",
+    "jobs_dir": "<workspace>/results/one-cycle-derived-methods-20261008",
+    "tasks": [
+        {
+            "path": "<workspace>/submission/task/cyclic-loading-displacement"
+        }
+    ]
+}

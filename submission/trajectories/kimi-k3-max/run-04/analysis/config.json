@@ -1,0 +1,19 @@
+{
+    "job_name": "analysis-run-04",
+    "jobs_dir": "<workspace>/results/one-cycle-analysis/run-04",
+    "quiet": true,
+    "agents": [
+        {
+            "name": "terminus-2",
+            "model_name": "deepseek/deepseek-v4-pro",
+            "kwargs": {
+                "api_base": "https://api.deepseek.com/v1"
+            }
+        }
+    ],
+    "tasks": [
+        {
+            "path": "<analysis-tempdir>/analyze-cyclic-loading-displacement__wvXHeH6"
+        }
+    ]
+}

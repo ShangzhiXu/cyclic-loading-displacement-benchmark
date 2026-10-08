@@ -1,0 +1,4 @@
+Agent 'oracle' does not declare an options_model; leftover kwargs are ignored
+Skipping image OS validation for hb__714915bbbc1d3d70a998af292b13349a: docker inspect returned 1
+Collecting main service artifacts
+Skipping image OS validation for hb__f56b42e52c8f53861d6e2012d33282b9: docker inspect returned 1
