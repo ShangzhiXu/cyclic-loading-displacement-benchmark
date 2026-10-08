@@ -7,7 +7,8 @@ from pathlib import Path
 
 from openpyxl import load_workbook
 
-TASK = Path(__file__).resolve().parents[2]
+TASK = (Path(__file__).resolve().parents[3] /
+        "cyclic-loading-displacement")
 SOURCE = Path(__file__).with_name("source_comparison.xlsx")
 OUTPUT = TASK / "environment/data/first_cycle.csv"
 

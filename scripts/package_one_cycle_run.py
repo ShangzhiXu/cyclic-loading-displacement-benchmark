@@ -19,7 +19,7 @@ if result['stats']['n_running_trials'] or result['stats']['n_pending_trials']:
 dest_label=sys.argv[3] if len(sys.argv)>3 else f'run-{run:02d}'
 if '..' in Path(dest_label).parts or Path(dest_label).is_absolute():
     raise ValueError('invalid destination label')
-dest=root/'submission/trajectories/kimi-k3-max'/dest_label
+dest=root/'trajectories/kimi-k3-max'/dest_label
 dest.parent.mkdir(parents=True,exist_ok=True)
 if dest.exists(): raise FileExistsError(dest)
 shutil.copytree(source,dest,ignore=shutil.ignore_patterns('launcher_pid.txt'))

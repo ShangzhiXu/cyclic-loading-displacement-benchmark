@@ -15,7 +15,8 @@ import subprocess
 import tempfile
 from pathlib import Path
 
-TASK = Path(__file__).resolve().parents[2]
+TASK = (Path(__file__).resolve().parents[3] /
+        "cyclic-loading-displacement")
 REPORT = Path(__file__).with_name("trivial_controls_8pct.json")
 FIELDS = ("cycle", "peak_displacement_mm", "trough_displacement_mm", "end_displacement_mm")
 LIMIT = 8.0
